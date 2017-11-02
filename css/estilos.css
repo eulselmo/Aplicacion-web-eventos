@@ -1,0 +1,344 @@
+html{
+	    font-family: Arial;
+	    font-size: 112.5%;
+	    font-weight: 400;
+	    height:100%;
+    	width: 100%;
+}
+
+body{
+	margin:0 auto;
+	background-color: #F2F2F2;
+	height:100%;
+    width: 100%;
+}
+
+
+/*Página principal*/
+#principal{
+	text-align: center;
+}
+
+#banner{
+	margin-top: 20px;
+	height: 450px;
+	width: 900px;
+}
+
+#ultimas_noticias{
+	margin-top: -65px;
+}
+
+/* Menú principal */
+
+#opciones {
+	margin-top:20px;
+	float:left;
+	font-size: 24px;
+	font-family: Myriad Set Pro;
+	margin:0 auto;
+	height: 44px;
+	width: 60%;
+}
+
+#opciones ul{
+	margin:0 auto;
+
+  	float: left;
+  	margin-left:3%;
+  	margin-top:0.6%;
+  	width: 70%;
+ }
+
+ ul,li{
+ 	height: 44px;
+ 	float:left;
+	list-style-type: none;
+ }
+
+ /*Iconos*/
+
+ .cerrarsesion{
+	 height: 50px;
+	 width: 50px;
+	 margin-top: 630px;
+	 margin-left: -60px;
+ }
+ .iconos{
+	 height: 30px;
+	 width: 30px;
+ }
+
+ .iconos_sub{
+	 height: 30px;
+	 width: 25px
+ }
+
+ .inicio{
+	 height: 100px;
+	 width: 150px;
+	 margin-left: 17%;
+ }
+
+ .inicio img{
+	 height: 100px;
+	 width: 150px;
+ }
+
+.submenu a{
+	float:right;
+	margin-top:5px;
+	margin-left:5px;
+}
+ .submenu li{
+	 margin-top: 20px;
+ }
+
+
+
+
+#opciones li{
+	 margin-right: 5%;
+   display: inline;
+}
+#opciones li a {
+   padding: 2px 7px 2px 7px;
+   color: black;
+   text-decoration: none;
+
+}
+#opciones li img{
+	height: 19px;
+}
+
+.lupa {
+	max-height: 15px;
+	margin-top:3px;
+}
+
+#opciones li img:hover{
+	opacity: 0.4; filter: alpha(opacity=30);
+}
+
+#opciones li a:hover{
+   background-color: #333333;
+   color: #a89ca7;
+}
+
+/* Submenú */
+
+#submenu{
+
+	float:left;
+	width: 13%;
+	height: 100%;
+	background-color: #333333;
+	color:white;
+}
+#submenu a{
+	color:white;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*Cuerpo */
+
+.cuerpo{
+	float:left;
+	margin-left: 15px;
+	width: 70%;
+}
+
+.cuerpo hr{
+	margin-top: -15px;
+}
+
+.cuerpo_not{
+	width: 1336px;
+	float:left;
+	margin-left: 15px;
+	margin-top: -40px;
+}
+
+.cuerpo_not hr{
+	margin-top: -15px;
+}
+
+
+/* Noticias */
+.contenedor_not{
+	height: 160px;
+	width: 400px;
+	margin-bottom: -10px;
+}
+
+.contenedor_not div{
+	height: 100px;
+	width: 150px;
+}
+
+.contenedor_not2 img{
+	height: 100px;
+	width: 150px;
+	clear:both;
+}
+
+
+.contenedor_not3{
+	float:left;
+	padding-left: 20px;
+	height: 20px;
+	width: 30px;
+}
+
+#noticiaCompleta{
+	text-align: center;
+}
+
+#noticiaCompleta img{
+	height: 250px;
+	width: 500px;
+}
+
+.noticias{
+	width: 100%;
+	height: 570px;
+}
+
+.noticia{
+	width: 425px;
+	height: 40%;
+	float:left;
+	margin-bottom: 35px;
+	margin-right: 15px;
+}
+
+.paginacion{
+	margin-top:500px;
+}
+/*Tablas*/
+
+
+.tablas th,td{
+    color: black;
+}
+table{
+	width: 800px;
+}
+
+#tabla_clientes{
+	width: 1000px;
+}
+
+th, td{
+	 padding: 10px;
+	 text-align: center;
+}
+th {
+    background-color: black;
+    color: white;
+}
+
+/*Cebreado de tablas */
+.par{
+	background-color: #808080;
+}
+
+/*Tabla servicios*/
+#servicios img{
+	height: 75px;
+	width: 150px;
+}
+
+
+/*Footer*/
+
+#footer{
+	float:left;
+	text-align: center;
+	bottom: 0;
+    position: relative;
+	height: 25%;
+	width: 100%;
+	color:white;
+	background-color: #333333;
+	margin-top: 0px;
+	padding-bottom: 15px;
+}
+
+/*Eventos*/
+
+#eventos{
+	margin-left: 50px;
+}
+
+/*Otros*/
+
+#img_ser{
+	width: 280 px;
+	height: 180px;
+}
+
+/*Personización de formularios*/
+
+input[type=text] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=password] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=tel] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+select{
+	padding:5px 15px;
+	background:#ccc;
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input[type=submit] {
+    padding:2px 8px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=date] {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=time] {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}

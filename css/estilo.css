@@ -1,0 +1,207 @@
+html{
+	    font-family: Arial;
+	    font-size: 112.5%;
+	    font-weight: 400;
+	    height:100%;
+    	width: 100%;
+}
+
+body{
+	margin:0 auto;
+	background-color: #F2F2F2;
+	height:100%;
+    width: 100%;
+}
+
+/*Página principal*/
+#principal{
+	text-align: center;
+}
+
+#banner{
+	margin-top: 20px;
+	height: 450px;
+	width: 900px;
+}
+
+#ultimas_noticias{
+	margin-top: -65px;
+}
+
+/* Menú principal */
+
+#navegador {
+	font-size: 18px;
+	font-family: Myriad Set Pro;
+	background-color: #333333;
+	margin:0 auto;
+	height: 44px;
+	width: 100%;
+}
+
+#navegador ul{
+	margin:0 auto;
+  	list-style-type: none;
+  	float: left;
+  	margin-left:24%;
+  	margin-top:0.6%;
+  	width: 70%;
+ }
+
+ ul,li{
+ 	height: 44px;
+ 	float:left;
+ }
+
+
+#navegador li{
+	 margin-right: 5%;
+   display: inline;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: lightgray;
+   background-color: #333333;
+   text-decoration: none;
+
+}
+#navegador li img{
+	height: 19px;
+}
+
+.lupa {
+	max-height: 15px;
+	margin-top:3px;
+}
+
+#navegador li img:hover{
+	opacity: 0.4; filter: alpha(opacity=30);
+}
+
+#navegador li a:hover{
+   background-color: #333333;
+   color: #a89ca7;
+}
+
+/* Submenú */
+
+#submenu{
+	margin-top: -11px;
+	float:left;
+	width: 10%;
+	height: 100%;
+	background-color: black;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.cerrarsesion{
+	width: 50px;
+	height: 50px;
+	margin-top: 500px;
+}
+
+/*Cuerpo */
+
+.cuerpo{
+	float:left;
+	margin-left: 15px;
+}
+
+.cuerpo hr{
+	margin-top: -15px;
+}
+
+.cuerpo_not{
+	float:left;
+	margin-left: 15px;
+	margin-top: -40px;
+}
+
+.cuerpo_not hr{
+	margin-top: -15px;
+}
+
+
+/* Noticias */
+.contenedor_not{
+	height: 160px;
+	width: 400px;
+	margin-bottom: -30px;
+}
+
+.contenedor_not div{
+	height: 100px;
+	width: 150px;
+}
+
+.contenedor_not2{
+	float:left;
+	display:block;
+	clear:both;
+}
+.contenedor_not2 img{
+	height: 100px;
+	width: 150px;
+	clear:both;
+}
+
+
+.contenedor_not3{
+	float:left;
+	padding-left: 20px;
+	height: 20px;
+	width: 30px;
+}
+
+#noticiaCompleta{
+	text-align: center;
+}
+
+#noticiaCompleta img{
+	height: 250px;
+	width: 500px;
+}
+
+/*Tablas*/
+
+.tablas th,td{
+	background-color: lightblue;
+    color: black;
+}
+table{
+	width: 800px;
+}
+th, td{
+	 padding: 10px;
+	 text-align: center;
+}
+th {
+    background-color: black;
+    color: white;
+}
+
+/*Tabla servicios*/
+#servicios img{
+	height: 75px;
+	width: 150px;
+}
+
+
+/*Footer*/
+
+#footer{
+	float:left;
+	text-align: center;
+	bottom: 0;
+    position: relative;
+	height: 35px;
+	width: 100%;
+	color:white;
+	background-color: black;
+	margin-top: 0px;
+	padding-bottom: 15px;
+}
